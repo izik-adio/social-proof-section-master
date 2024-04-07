@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="relative container max-w-screen-lg mx-auto px-4">
+    <section id="bg">
+      <img
+        src="./images/bg-pattern-top-mobile.svg"
+        alt
+        class="absolute sm:hidden top-0 left-0" />
+      <img
+        src="./images/bg-pattern-top-desktop.svg"
+        alt
+        class="hidden absolute sm:block top-0 left-0" />
+      <img
+        src="./images/bg-pattern-bottom-desktop.svg"
+        alt
+        class="hidden absolute sm:block bottom-0 right-0" />
+      <img
+        src="./images/bg-pattern-bottom-mobile.svg"
+        alt
+        class="absolute sm:hidden bottom-0 right-0" />
+    </section>
+
+    <section
+      class=" w-full flex flex-col sm:flex-row justify-between gap-6 mb-6">
+      <section class="text-center py-3 sm:text-left sm:w-auto sm:max-w-96">
+        <h1
+          class="text-dMagenta text-5xl font-bold py-8 sm:text-4xl sm:w-80 md:text-5xl sm:py-6">
+          10,000+ of our users love our products.
+        </h1>
+        <p class="text-dGrayMagenta text-lg font-medium">
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers are saying about our
+          services.
+        </p>
+      </section>
+
+      <section
+        id="ratings"
+        class="py-5 pb-5 flex flex-col gap-4 justify-center align-bottom items-end w-full">
+        <div
+          class="flex flex-col sm:flex-row sm:max-w-sm sm: gap-2 w-full items-center bg-lGrayMagenta rounded-lg pt-4 pb-3 sm:mr-20">
+          <div class="flex gap-1 px-6">
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+          </div>
+          <p class="text-dMagenta text-base font-bold sm:text-sm md:textbase">
+            Rated 5 Stars in Reviews
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col sm:flex-row sm:max-w-sm sm: gap-2 w-full items-center bg-lGrayMagenta rounded-lg pt-4 pb-3 sm:mr-10">
+          <div class="flex gap-1 px-6">
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+          </div>
+          <p class="text-dMagenta text-base font-bold sm:text-sm md:textbase">
+            Rated 5 Stars in Report Guru
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col sm:flex-row sm:max-w-sm sm: gap-2 w-full items-center bg-lGrayMagenta rounded-lg pt-4 pb-3 ">
+          <div class="flex gap-1 px-6">
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+            <img src="./images/icon-star.svg" alt />
+          </div>
+          <p class="text-dMagenta text-base font-bold sm:text-sm md:textbase">
+            Rated 5 Stars in BestTech
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <section
+      id="reviews"
+      class="flex flex-col justify-between gap-2 sm:flex-row sm:flex-wrap py-4">
+      <div
+        class="flex flex-col p-6 h-fit sm:max-w-[320px] sm:mx-auto lg:mx-0 bg-dMagenta rounded-xl text-lGrayMagenta">
+        <div class="py-3">
+          <img
+            class="float-left w-12 h-12 rounded-full mr-8"
+            src="./images/image-colton.jpg"
+            alt="Colton Image" />
+          <h2 id="name" class="font-semibold text-xl">Colton Smith</h2>
+          <p class="text-sPink/80 font-lg">Verified Buyer</p>
+        </div>
+        <p id="comment" class="sm:text-sm">
+          "We needed the same printed design as the one we had ordered a week
+          prior. Not only did they find the original order, but we also received
+          it in time. Excellent!"
+        </p>
+      </div>
+      <div
+        class="flex flex-col p-6 h-fit sm:max-w-[320px] sm:mx-auto lg:mx-0 lg:mt-8 bg-dMagenta rounded-xl text-lGrayMagenta">
+        <div class="py-3">
+          <img
+            class="float-left w-12 h-12 rounded-full mr-8"
+            src="./images/image-irene.jpg"
+            alt="Irene Image" />
+          <h2 id="name" class="font-semibold text-xl">Irene Roberts</h2>
+          <p class="text-sPink/80 font-lg">Verified Buyer</p>
+        </div>
+        <p id="comment" class="sm:text-sm">
+          "Customer service is always excellent and very quick turn around.
+          Completely delighted with the simplicity of the purchase and the speed
+          of delivery."
+        </p>
+      </div>
+      <div
+        class="flex flex-col p-6 h-fit sm:max-w-[320px] sm:mx-auto lg:mx-0 lg:mt-16 bg-dMagenta rounded-xl text-lGrayMagenta">
+        <div class="py-3">
+          <img
+            class="float-left w-12 h-12 rounded-full mr-8"
+            src="./images/image-anne.jpg"
+            alt="Anne Image" />
+          <h2 id="name" class="font-semibold text-xl">Anne Wallace</h2>
+          <p class="text-sPink/80 font-lg">Verified Buyer</p>
+        </div>
+        <p id="comment" class="sm:text-sm">
+          "Put an order with this company and can only praise them for the very
+          high standard. Will definitely use them again and recommend them to
+          everyone!"
+        </p>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>. Coded by <a href="github.com/izik-adio" target="_blank">izik-adio</a>.
+    </div>
+  </body>
+</html>

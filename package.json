@@ -1,0 +1,12 @@
+{
+  "name": "social-proof-section-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/app.css -o ./build/style.css --watch"
+  },
+  "keywords": [],
+  "author": "izik-adio",
+  "license": "ISC"
+}
